@@ -1,0 +1,12 @@
+* {
+    background: rgb(84,230,238);
+    background: linear-gradient(90deg, rgba(84,230,238,1) 0%, rgba(242,107,207,1) 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
