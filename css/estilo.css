@@ -1,20 +1,32 @@
 /** css do index */
 
 #index {
-    background: rgb(255, 255, 255);
+    background: rgb(151, 151, 151);
+}
+
+:root{
+--primary: #54e6ee;
+--secondary: #f26bcf;
+--third: #ffffff5e;
+--black: #000000;
+--white: #ffffff;
 }
 
 #page1 {
-    background: rgb(84,230,238);
-    background: linear-gradient(90deg, rgba(84,230,238,1) 0%, rgba(242,107,207,1) 100%);
+  background: #54e6ee;
+  background: linear-gradient(90deg, #54e6ee 0%, #f26bcf 90%);
 }
 #page1-1 {
-    background: rgb(84,230,238);
-    background: linear-gradient(90deg, rgba(84,230,238,1) 0%, rgba(242,107,207,1) 100%);
+  background: #54e6ee;
+  background: linear-gradient(90deg, #54e6ee 0%, #f26bcf 90%);
 }
 
 h1#index {
     text-align: center;
+}
+
+a#page1-1{
+  text-align: center;
 }
 
 p {
@@ -48,5 +60,34 @@ img#index {
   }
   
   a:hover, a:active {
-    background-color: rgba(208, 208, 208, 0.434);
+    background-color: rgba(0, 0, 0, 0.267);
+  }
+
+    /* ********************************************************************** */
+
+  /* cabeçalho */
+
+  header {
+    border-bottom: 0.4 rem solid var(--third);
+    display: flex;
+    height: 3rem;
+  }
+
+  header picture{
+    margin-left: 0.5rem;
+    padding: 0,5rem;
+  }
+
+  /* ********************************************************************** */
+
+  /* Rodapé */
+
+  footer{
+    background-color: var(--third);
+    height: 3rem;
+  }
+
+  footer img{
+    height: 100%;
+    padding: 0.4rem;
   }
