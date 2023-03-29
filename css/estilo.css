@@ -1,12 +1,52 @@
-* {
+/** css do index */
+
+#index {
+    background: rgb(255, 255, 255);
+}
+
+#page1 {
+    background: rgb(84,230,238);
+    background: linear-gradient(90deg, rgba(84,230,238,1) 0%, rgba(242,107,207,1) 100%);
+}
+#page1-1 {
     background: rgb(84,230,238);
     background: linear-gradient(90deg, rgba(84,230,238,1) 0%, rgba(242,107,207,1) 100%);
 }
 
-h1 {
+h1#index {
     text-align: center;
 }
 
 p {
     text-align: center;
 }
+
+img#index {
+
+    border-radius: 50%;
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img#page1-1 {
+
+    border-radius: 50%;
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a:link, a:visited {
+    
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgba(208, 208, 208, 0.434);
+  }
